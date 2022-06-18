@@ -1,0 +1,19 @@
+{
+  "name": "node-file-upload",
+  "version": "1.0.0",
+  "description": "File upload REST API implementation using express-fileupload library in express.js",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js"
+  },
+  "author": "ShripadMhetre",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
